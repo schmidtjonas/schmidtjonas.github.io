@@ -1,8 +1,112 @@
 <!DOCTYPE html>
-<html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
 
+<html lang="en">
+<head>
+  <title>Jonas Schmidt</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
 <body>
-    <h1>Hello, World!</h1>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#papers">Papers</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-3">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Jonas Schmidt</b></div>
+                <p>(he/him)</p>
+                <!-- Main Image -->
+                <img class="img-responsive" src="photo.gif" alt=""><br>
+                <br>
+                <p><b>[firstname].[lastname]2 @phd.unibocconi.it</b></p>
+                <dd><a href="https://scholar.google.com/citations?hl=de&user=aJq2pWwAAAAJ">Google Scholar</a></dd> 
+            </div>
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                <div style="margin-top:3%; text-align:justify;">                
+					<p>Hi, I'm Jonas! I am a PhD student in Computer Science at Bocconi University, where I am advised by <a href="https://adampolak.github.io/">Adam Polak</a>.</p>
+
+					<p>I am interested in theoretical problems related to algorithms and complexity, especially fine-grained complexity and parameterized and polynomial-time algorithms. I am motivated by understanding the relationships between problems and I enjoy playing around with interesting and challenging questions.</p>
+
+					<p>Feel free to reach out to me!</p>
+                </div>
+                    
+                <hr>
+                
+                <div class="col">    
+                    <h3 id="papers">Papers</h3>
+                    <p>
+                        S. Angrick, B. Bals, T. Friedrich, H. Gawendowicz, N. Hastrich, N. Klodt, P. Lenzner, J. Schmidt, G. Skretas, A. Wells<br>
+                        <b>How to Reduce Temporal Cliques to Find Sparse Spanners</b><br>
+                        <a href="https://doi.org/10.4230/LIPIcs.ESA.2024.11">ESA 2024</a>, <a href="https://arxiv.org/abs/2402.13624">arXiv</a>
+                    </p>
+                    <p></p>
+                    <p>
+                        D. Bilò, V. Bilò, M. Döring, P. Lenzner, L. Molitor, J. Schmidt<br>
+                        <b>Schelling games with continuous types</b><br>
+                        <a href="https://doi.org/10.24963/ijcai.2023/280">IJCAI 2023</a>, <a href="https://arxiv.org/abs/2305.06819">arXiv</a>, <a href="https://ceur-ws.org/Vol-3587/9970.pdf">ICTCS short paper</a>
+                    </p>
+                    <p></p>
+                    <p>
+                        S. Angrick, B. Bals, K. Casel, S. Cohen, T. Friedrich, N. Hastrich, T. Hradilak, D. Issac, O. Kißig, J. Schmidt, L. Wendt
+                        <br>
+                        <b>Solving Directed Feedback Vertex Set by Iterative Reduction to Vertex Cover</b><br>
+                        <a href="https://doi.org/10.4230/LIPIcs.SEA.2023.10">SEA 2023</a>, 3rd rank in the <a href="https://pacechallenge.org/2022/results/">2022 PACE Challenge</a>, <a href="https://doi.org/10.4230/LIPIcs.IPEC.2022.28">PACE Solver Description</a>
+                    </p>
+                    <p></p>
+                    <p>
+                        S. Angrick, B. Bals, N. Hastrich, M. Kleissl, J. Schmidt, V. Doskoč, L. Molitor, T. Friedrich, M. Katzmann
+                        <br>
+                        <b>Towards explainable real estate valuation via evolutionary algorithms</b><br>
+                        <a href="https://doi.org/10.1145/3512290.3528801">GECCO 2022</a>, <a href="https://arxiv.org/abs/2110.05116">arXiv</a>
+                    </p>
+                </div>
+
+            </div> 
+            
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Thanks to Vasilios Mavroudis for creating this template!</a> 
+    
 </body>
 
 </html>
